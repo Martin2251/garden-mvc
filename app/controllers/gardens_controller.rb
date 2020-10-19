@@ -73,4 +73,3 @@ class GardensController < ApplicationController
       params.require(:garden).permit(:name, :banner_url)
     end
 end
-end
